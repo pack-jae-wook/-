@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "811602358957",
+    "firebase_url": "https://hello-fb01-df75d-default-rtdb.firebaseio.com",
+    "project_id": "hello-fb01-df75d",
+    "storage_bucket": "hello-fb01-df75d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811602358957:android:69a05dbdff975b792a8c24",
+        "android_client_info": {
+          "package_name": "com.example.fd_led_control"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811602358957-bsnsdjbh05gfb2l7nc85gmon7qt7b6j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4UeZyjwl2Lui107sW1CxUhGd7SfKBpwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811602358957-bsnsdjbh05gfb2l7nc85gmon7qt7b6j5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
