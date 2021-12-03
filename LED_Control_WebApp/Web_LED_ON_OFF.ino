@@ -39,7 +39,7 @@ void setup()
     Serial.print("Connected to ");
     Serial.println(WIFI_SSID);
     Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);   // firebase에 연결
-    Firebase.setString("LED_STATUS", "OFF");              //초기 LED 상태를 OFF로 설정
+    Firebase.setString("LED_STATUS", "OFF");        //초기 LED 상태를 OFF로 설정
 
     // handle error
     if (Firebase.failed()) {
@@ -55,7 +55,7 @@ void loop()
     if (fireStatus == "ON")   {       // Firebase 데이터베이스로 부터 받은 LED 상태 값이 “ON”이면 LED 켜기
       Serial.println("Led Turned ON"); // Serial Monitor에 “Led Turned ON” 문자열 출력                                                       
       digitalWrite(led, HIGH);          // LED OFF
-  } else if (fireStatus == "OFF")  {    // Firebase 데이터베이스로 부토 LED 상태 값 읽음 
+  } else if (fireStatus == "OFF")  {    // Firebase 데이터베이스로 부터 LED 상태 값 읽음 
     Serial.println("Led Turned OFF");  // Serial Monitor에 “Led Turned OFF” 문자열 출력 
     digitalWrite(led, LOW);          // LED OFF
   } else {
